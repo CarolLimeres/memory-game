@@ -1,14 +1,16 @@
 import { cardData } from "../../services/api";
+import { Card } from "../../components/Card";
+import { Container } from "./styles";
 
 export function Game() {
   return (
-    <div>
+    <Container>
       <h1>Memory Game</h1>
-      {cardData.map((card) => (
-        <div key={card.id}>
-          <img src={"/src/assets/" + card.image} alt="" />
-        </div>
-      ))}
-    </div>
+      <div>
+        {cardData.map((card) => (
+          <Card key={card.id} image={card.image}></Card>
+        ))}
+      </div>
+    </Container>
   );
 }

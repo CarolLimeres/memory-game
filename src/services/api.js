@@ -7,6 +7,7 @@ export const cardData = [
   { id: 6, image: "capyWithBabies.jpg" },
   { id: 7, image: "capyWithBird.jpg" },
   { id: 8, image: "capyWithPups.jpg" },
+  { id: 9, image: "albinoCapy.jpeg" },
   { id: 1, image: "babyCapy.jpg" },
   { id: 2, image: "capyEating.jpg" },
   { id: 3, image: "capyLettuce.jpg" },
@@ -15,4 +16,5 @@ export const cardData = [
   { id: 6, image: "capyWithBabies.jpg" },
   { id: 7, image: "capyWithBird.jpg" },
   { id: 8, image: "capyWithPups.jpg" },
+  { id: 9, image: "albinoCapy.jpeg" },
 ];
